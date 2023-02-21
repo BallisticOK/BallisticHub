@@ -1,0 +1,27 @@
+if game.PlaceId == 10675066724 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Slime-Tower-Tycoon/main/BalHub'))()
+elseif game.PlaceId == 6897226634 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/BalHub/main/Timber!'))()
+    elseif game.PlaceId == 9264596435 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Idle-Heroes/main/Main'))()
+        elseif game.PlaceId == 10925589760 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/MergeSimulator/main/Main'))()
+        elseif game.PlaceId == 9625096419 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Tapper-Simulator/main/Main'))()
+        elseif game.PlaceId == 6516141723 then
+    wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Error"; -- the title (ofc)
+Text = "Please Execute in the correct game.";
+Icon = "rbxassetid://0";
+Duration = 30;
+})
+        elseif game.PlaceId == 6839171747 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/doorsbalhub/main/doors'))()
+            elseif game.PlaceId == 10676523834 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Racing-Rocket/main/Main'))()
+                elseif game.PlaceId == 286090429 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/arsenal/main/main'))()
+elseif game.PlaceId == game.PlaceId then
+    print("NO GAME")
+end
