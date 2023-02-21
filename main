@@ -20,8 +20,15 @@ Duration = 30;
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/doorsbalhub/main/doors'))()
             elseif game.PlaceId == 10676523834 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Racing-Rocket/main/Main'))()
-                elseif game.PlaceId == 286090429 then
+            elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/arsenal/main/main'))()
+            elseif game.PlaceId == 11397035899 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/AtomicGaming666/BallisticHub/main/games/Unicorn-Tycoon'))()
 elseif game.PlaceId == game.PlaceId then
-    print("NO GAME")
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Error"; -- the title (ofc)
+    Text = "Game Not Supported";
+    Icon = "rbxassetid://0";
+    Duration = 30;
+})
 end
