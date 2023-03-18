@@ -24,6 +24,8 @@ Duration = 30;
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/arsenal/main/main'))()
             elseif game.PlaceId == 11397035899 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/AtomicGaming666/BallisticHub/main/games/Unicorn-Tycoon'))()
+            elseif game.PlaceId == 12172698927 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/AtomicGaming666/BallisticHub/main/games/Sword-Race'))()
 elseif game.PlaceId == game.PlaceId then
     game.StarterGui:SetCore("SendNotification", {
     Title = "Error"; -- the title (ofc)
